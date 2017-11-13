@@ -1,0 +1,284 @@
+body{
+	margin: 0;
+	/*background: #999;*/
+	width: 100%;
+/*	background-image: url('lampPost.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	/*height: auto;*/
+
+
+}
+
+header{
+	margin: 0;
+	padding: 0;
+	background: #888;
+}
+
+nav h1{
+	margin: 0;
+	padding: 0;
+	color: white;
+	background: #595959;
+}
+
+
+nav p{
+	margin: 0
+	display: inline;
+}
+
+nav ul{
+	margin: 0;
+	padding: 10;
+	text-align: right;
+	background: #595959;
+	overflow: hidden;
+	position: relative;
+	/*width: 100%;*/
+}
+
+
+nav ul li {	
+	display: inline-block;
+	padding: 10px 25px 10px 0px;
+	list-style: none;
+	text-align: center;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+nav ul li a:hover{
+	color: gray;
+	text-transform: uppercase;
+}
+img{
+	width:100%;
+}
+.container{
+	width:100%;
+	height: 100%;
+	/*background: #999;*/
+	overflow:hidden;
+	margin: 0;
+	padding: 0;
+
+}
+
+#About{
+	height: 100%
+	width: 100%;
+	overflow:hidden;
+	background: #333;
+}
+#About .col-xs-5 img{
+	width: 100%;
+	padding: 10px;
+	margin: 0%;
+}
+
+#About .col-xs-6{
+	margin: 0;
+	padding: 20px ;
+	float:right;
+	text-align: left;
+	color: #999;
+	font-size: 25px;
+	/*width: 50%;*/
+	/*background: #999;*/
+}
+
+#Skills{
+	height: 100%;
+	width:100%;
+	overflow:hidden;
+	background: #666;
+}
+#Skills h1{
+	text-align: center;
+	font-size: 75px;
+	/*text-decoration: underline;*/
+	border-style: solid;
+	border-radius: 12px;
+	margin: 4% 10% 3% 10%;
+	background:#C0C0C0;
+}
+
+#Skills .col-xs-4 h3{
+	font-style: oblique;
+	text-decoration: underline;
+	text-align: center;
+}
+
+#Skills .col-xs-4 ul{
+	list-style-type: none;
+}
+
+#Skills .col-xs-4 ul li{
+	display: inline-block;
+	border: 2px solid black;
+	border-style: dashed;
+	border-radius: 12px;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	margin: 5px;
+	background: #999
+}
+
+#Skills .col-xs-4 ul li:hover{
+	text-decoration: underline;
+	font-weight: bold;
+	background: white;
+}
+
+#Contact{
+	height:100%;
+	width: 100%;
+	overflow:hidden;
+	background: #999;
+}
+#Contact h2{
+	text-align: center;
+	background: white;
+	margin: 4% 35% 4% 35%;
+	border-style: solid;
+	border-radius: 12px;
+	font-size: 56px;
+}
+#Contact .col-xs-4 a{
+	font-size: 32px;
+	margin: 0;
+	color: blue;
+}
+
+/*#Contact .col-xs-5 img.resize: {*/
+	/*margin: 0% 15% 0% 15%;*/
+/*	max-width: 50%;
+	max-height: 50%*/
+/*}*/
+
+@media screen and (max-width: 1000px){
+#About .col-xs-6{
+	margin: 0;
+	padding: 20px ;
+	float:right;
+	text-align: left;
+	color: #999;
+	font-size: 16px;
+}
+
+#Skills{
+	height: 100%;
+	width:100%;
+	overflow:hidden;
+	background: #666;
+}
+#Skills h1{
+	text-align: center;
+	font-size: 40px;
+	/*text-decoration: underline;*/
+	border-style: solid;
+	border-radius: 12px;
+	margin: 4% 10% 3% 10%;
+	background:#C0C0C0;
+}
+#Skills .col-xs-4 h3{
+	font-style: oblique;
+	text-decoration: underline;
+	text-align: center;
+	margin:0;
+	font-size: 20px;
+}
+#Skills .col-xs-4 ul{
+	list-style-type: none;
+}
+
+#Skills .col-xs-4 ul li{
+	display: inline-block;
+	border: 2px solid black;
+	border-style: dashed;
+	border-radius: 12px;
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;
+	margin: 5px;
+	background: #999
+}
+#Contact{
+	height:100%;
+	width: 100%;
+	overflow:hidden;
+	background: #999;
+}
+#Contact h2{
+	text-align: center;
+	background: white;
+	margin: 4% 32% 4% 32%;
+	font-size: 40px;
+}
+
+#Contact .col-xs-4 a{
+	font-size: 25px;
+	margin: 0;
+	color: blue;
+}
+}
+@media screen and (max-width: 550px){
+#About .col-xs-6{
+	margin: 0;
+	padding: 20px ;
+	float:right;
+	text-align: left;
+	color: #999;
+	font-size: 12px;
+}
+
+#Skills .col-xs-4 h3{
+	font-style: oblique;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 14px;
+}
+
+#Skills .col-xs-4 ul li{
+	display: inline-block;
+	border: 2px solid black;
+	border-style: dashed;
+	border-radius: 12px;
+	/*padding: 5px;*/
+	text-align: left;
+	font-size: 12px;
+	/*margin: 5px;*/
+	background: #999
+}
+#Contact h2{
+	text-align: center;
+	background: white;
+	margin: 4% 32% 4% 32%;
+	font-size: 25px;
+}
+
+#Contact .col-xs-4 a{
+	font-size: 16px;
+	margin: 0;
+	color: blue;
+}
+}
+
+@media screen and (min-width: 1450px){
+#About .col-xs-6{
+	margin: 0;
+	padding: 20px ;
+	float:right;
+	text-align: left;
+	color: #999;
+	font-size: 35px;
+}
+
+
+
+}	
