@@ -15,19 +15,22 @@ header{
 	padding: 0;
 	background: #888;
 }
+/*.stuck{
+	position:fixed;
+	z-index: 100;
+	width: 100%
+	top:0;
+}*/
 
-nav h1{
+/*nav h1{
 	margin: 0;
+	padding: 4% 0 0 0;
 	padding: 0;
 	color: white;
 	background: #595959;
+	width:100%;
 }
-
-
-nav p{
-	margin: 0
-	display: inline;
-}
+*/
 
 nav ul{
 	margin: 0;
@@ -36,7 +39,7 @@ nav ul{
 	background: #595959;
 	overflow: hidden;
 	position: relative;
-	/*width: 100%;*/
+	width: 100%;
 }
 
 
@@ -45,6 +48,7 @@ nav ul li {
 	padding: 10px 25px 10px 0px;
 	list-style: none;
 	text-align: center;
+	position: right;
 }
 
 nav ul li a {
@@ -74,6 +78,14 @@ img{
 	overflow:hidden;
 	background: #333;
 }
+#About h2{
+	text-align: center;
+	font-size: 75px;
+	background: gold;
+	border-radius: 12px;
+	margin: 2% 20% 2% 20%;
+	padding: 5px;
+}
 #About .col-xs-5 img{
 	width: 100%;
 	padding: 10px;
@@ -97,7 +109,7 @@ img{
 	overflow:hidden;
 	background: #666;
 }
-#Skills h1{
+#Skills h2{
 	text-align: center;
 	font-size: 75px;
 	/*text-decoration: underline;*/
@@ -155,13 +167,17 @@ img{
 	color: blue;
 }
 
-/*#Contact .col-xs-5 img.resize: {*/
-	/*margin: 0% 15% 0% 15%;*/
-/*	max-width: 50%;
-	max-height: 50%*/
-/*}*/
 
 @media screen and (max-width: 1000px){
+#About h2{
+	text-align: center;
+	font-size: 60px;
+	background: gold;
+	border-radius: 12px;
+	margin: 2% 20% 2% 20%;
+	padding: 5px;
+}
+
 #About .col-xs-6{
 	margin: 0;
 	padding: 20px ;
@@ -177,7 +193,7 @@ img{
 	overflow:hidden;
 	background: #666;
 }
-#Skills h1{
+#Skills h2{
 	text-align: center;
 	font-size: 40px;
 	/*text-decoration: underline;*/
@@ -228,6 +244,15 @@ img{
 }
 }
 @media screen and (max-width: 550px){
+#About h2{
+	text-align: center;
+	font-size: 38px;
+	background: gold;
+	border-radius: 12px;
+	margin: 2% 20% 2% 20%;
+	padding: 5px;
+}
+
 #About .col-xs-6{
 	margin: 0;
 	padding: 20px ;
@@ -251,7 +276,7 @@ img{
 	border-radius: 12px;
 	/*padding: 5px;*/
 	text-align: left;
-	font-size: 12px;
+	font-size: 10px;
 	/*margin: 5px;*/
 	background: #999
 }
@@ -259,11 +284,11 @@ img{
 	text-align: center;
 	background: white;
 	margin: 4% 32% 4% 32%;
-	font-size: 25px;
+	font-size: 23px;
 }
 
 #Contact .col-xs-4 a{
-	font-size: 16px;
+	font-size: 14px;
 	margin: 0;
 	color: blue;
 }
@@ -278,7 +303,65 @@ img{
 	color: #999;
 	font-size: 35px;
 }
+}
 
+@media screen and (max-width: 360px){
+#About h2{
+	text-align: center;
+	font-size: 28px;
+	background: gold;
+	border-radius: 12px;
+	margin: 2% 20% 2% 20%;
+	padding: 5px;
+}
 
+#About .col-xs-6{
+	margin: 0;
+	padding: 15px ;
+	float:right;
+	text-align: left;
+	color: #999;
+	font-size: 12px;
+	width:100%;
+}
+#Skills h2{
+	text-align: center;
+	font-size: 30px;
+	/*text-decoration: underline;*/
+	border-style: solid;
+	border-radius: 12px;
+	margin: 4% 10% 3% 10%;
+	background:#C0C0C0;
+}
 
+#Skills .col-xs-4 h3{
+	font-style: oblique;
+	text-decoration: underline;
+	text-align: center;
+}
+#Skills .col-xs-4 ul li{
+	display: inline-block;
+	border: 1px solid black;
+	border-style: dashed;
+	border-radius: 12px;
+	padding: 5px;
+	text-align: left;
+	font-size: 8px;
+	/*margin: 5px;*/
+	background: #999
 }	
+#Contact h2{
+	text-align: center;
+	background: white;
+	margin: 4% 32% 4% 32%;
+	font-size: 20px;
+}
+
+#Contact .col-xs-4 a{
+	font-size: 10px;
+	margin: 0;
+	color: blue;
+}
+
+
+}
