@@ -7,6 +7,9 @@ body{
 	background-repeat: no-repeat;*/
 	/*height: auto;*/
 
+background: -webkit-linear-gradient(5deg, rgb(153, 153, 153), rgb(0, 0, 0));
+background: linear-gradient(5deg, rgb(153, 153, 153), rgb(0, 0, 0));
+
 
 }
 
@@ -34,18 +37,19 @@ header{
 
 nav ul{
 	margin: 0;
-	padding: 10;
+	padding: 5px;
 	text-align: right;
 	background: #595959;
 	overflow: hidden;
-	position: relative;
+	position: fixed;
 	width: 100%;
+	z-index: 500;
 }
 
 
 nav ul li {	
 	display: inline-block;
-	padding: 10px 25px 10px 0px;
+	padding: 10px 45px 10px 0px;
 	list-style: none;
 	text-align: center;
 	position: right;
@@ -54,6 +58,7 @@ nav ul li {
 nav ul li a {
 	text-decoration: none;
 	color: white;
+	text-transform: uppercase;
 }
 nav ul li a:hover{
 	color: gray;
@@ -76,7 +81,7 @@ img{
 	height: 100%
 	width: 100%;
 	overflow:hidden;
-	background: #333;
+	/*background: #333;*/
 }
 #About h2{
 	text-align: center;
@@ -107,7 +112,7 @@ img{
 	height: 100%;
 	width:100%;
 	overflow:hidden;
-	background: #666;
+	/*background: #666;*/
 }
 #Skills h2{
 	text-align: center;
@@ -146,12 +151,153 @@ img{
 	font-weight: bold;
 	background: white;
 }
+.Findings{
+	width:100%;
+	height: 100%;
+	/*background: #999;*/
+	overflow:hidden;
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+#UserResearch{
+	height:100%;
+	width: 100%;
+	/*background: white;*/
+}
+#UserResearch h1{
+	margin: 60px 0 0 0;
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center;
+
+}
+#UserResearch h1:after {
+     background: none repeat scroll 0 0 #999;
+     padding: 0;
+     bottom: -10px;
+     content: "";
+     display: block;
+     height: 1px;
+     position: relative;
+     /*padding-right: 15%*/
+     width: 100%;
+ }
+#UserResearch .col-xs-6 h4{
+	margin: 20px 0 0 0;
+	padding: 0;
+	padding-left: 16%;
+	text-decoration: underline;
+	width: 100%;
+
+	/*background: white;*/
+}
+
+#UserResearch .col-xs-6 p{
+	margin: 40px auto;
+	width: 80%
+	/*padding: 0;*/
+	/*padding: 10%;*/
+/*	padding-left: 15%;*/
+	/*text-align; center;*/
+}
+
+#UserTesting{
+	height:100%;
+	width: 100%;
+	/*background: white;*/
+}
+#UserTesting h1{
+	margin: 80px 0 0 0;
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center;
+
+}
+#UserTesting h1:after {
+     background: none repeat scroll 0 0 #999;
+     padding: 0;
+     bottom: -10px;
+     content: "";
+     display: block;
+     height: 1px;
+     position: relative;
+     /*padding-right: 15%*/
+     width: 100%;
+ }
+ #UserTesting .col-xs-6 h4{
+	margin: 20px 0 0 0;
+	padding: 0;
+	padding-left: 16%;
+	text-decoration: underline;
+	width: 100%;
+}
+#UserTesting .col-xs-6 p{
+	margin: 10px auto;
+	width: 80%;
+}
+#SummaryFindings{
+	height:100%;
+	width: 100%;
+	/*background: white;*/
+
+}
+#SummaryFindings h1{
+	margin: 60px 0 0 0;
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center;
+
+}
+#SummaryFindings h1:after {
+     background: none repeat scroll 0 0 #999;
+     padding: 0;
+     bottom: -10px;
+     content: "";
+     display: block;
+     height: 1px;
+     position: relative;
+     /*padding-right: 15%*/
+     width: 100%;
+ }
+ #SummaryFindings p{
+	margin: 10px auto;
+	width: 75%;
+}
+#Incorporation{
+	height:100%;
+	width: 100%;
+	/*background: white;*/
+
+}
+#Incorporation h1{
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center;
+
+}
+#Incorporation h1:after {
+     background: none repeat scroll 0 0 #999;
+     padding: 0;
+     bottom: -10px;
+     content: "";
+     display: block;
+     height: 1px;
+     position: relative;
+     /*padding-right: 15%*/
+     width: 100%;
+ }
+ #Incorporation p{
+	margin: 10px auto;
+	width: 75%;
+}
+
 
 #Contact{
 	height:100%;
 	width: 100%;
 	overflow:hidden;
-	background: #999;
+	/*background: #999;*/
 }
 #Contact h2{
 	text-align: center;
@@ -169,6 +315,14 @@ img{
 
 
 @media screen and (max-width: 1000px){
+
+nav ul li {	
+	display: inline-block;
+	padding: 10px 25px 10px 0px;
+	list-style: none;
+	text-align: center;
+	position: right;
+}
 #About h2{
 	text-align: center;
 	font-size: 60px;
@@ -244,6 +398,14 @@ img{
 }
 }
 @media screen and (max-width: 550px){
+
+nav ul li {	
+	display: inline-block;
+	padding: 10px 20px 10px 0px;
+	list-style: none;
+	text-align: center;
+	position: right;
+}
 #About h2{
 	text-align: center;
 	font-size: 38px;
@@ -306,6 +468,14 @@ img{
 }
 
 @media screen and (max-width: 360px){
+
+nav ul li {	
+	display: inline-block;
+	padding: 10px 25px 10px 0px;
+	list-style: none;
+	text-align: center;
+	position: right;
+}
 #About h2{
 	text-align: center;
 	font-size: 28px;
