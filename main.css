@@ -67,7 +67,7 @@ nav ul li a:hover{
 }
 #Home h1{
 	text-align: center;
-	padding-top: 19%;
+	padding-top: 20%;
 	padding-right: 3%;
 	font-size: 40px;
 	color: white;
@@ -86,7 +86,7 @@ nav ul li a:hover{
 	list-style: none;
     position: absolute;
     left: 48%;
-    top: 30%;
+    top: 32%;
     transform: translateX(-50%) translateY(-50%)
 
 }
@@ -340,20 +340,11 @@ nav ul li a:hover{
 	width: 100%;
 	overflow:hidden;
 	/*background: #999;*/
-}
-#Contact h2{
 	text-align: center;
-	background: white;
-	margin: 4% 35% 4% 35%;
-	border-style: solid;
-	border-radius: 12px;
-	font-size: 56px;
+	padding: 20px;
 }
-#Contact .col-xs-4 a{
-	font-size: 32px;
-	margin: 0;
-	color: blue;
-}
+
+
 #Contact ul{
 	display: flex;
 	text-align: center;
@@ -370,6 +361,19 @@ nav ul li a:hover{
 	width: 60px;
 	padding: 16px 0;
 	display: block;
+}
+#Contact .resume{
+	color: #31A6FF;
+	text-decoration: inherit;
+	font-size: 40px;
+	border: solid 3px #31A6FF;
+	border-radius: 50px;
+	padding: 10px 50px;
+	background-color: #f7f7f7;
+}
+#Contact .resume:hover{
+	background-color: #31A6FF;
+	color: white;
 }
 
 @media screen and (max-width: 1000px){
